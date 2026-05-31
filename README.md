@@ -32,6 +32,7 @@
 ```bash
 https://github.com/mychinasa23/watermark-telegram-bot.git
 cd watermark-telegram-bot
+```
 
 ### 2. Создаёте виртуальное окружение
 
@@ -43,11 +44,13 @@ python -m venv .venv
 # Linux / macOS
 python3 -m venv .venv
 source .venv/bin/activate
+```
 
 ### 3. Установите зависимости
 
 ```bash
 pip install -r requirements.txt
+```
 
 ### 4. Создайте файл .env с токеном бота
 Создайте в корне проекта файл .env и напишите в нём:
@@ -56,6 +59,7 @@ pip install -r requirements.txt
 BOT_TOKEN=ваш_токен_от_BotFather
 DB_PATH=bot_database.db
 TEMP_DIR=temp_files
+```
 
 - Как получить токен: Напишите @BotFather в Telegram → /newbot → укажите имя бота → скопируйте токен
 
@@ -63,6 +67,7 @@ TEMP_DIR=temp_files
 
 ```bash
 python bot.py
+```
 
 ### 6. Проверьте работу
 
