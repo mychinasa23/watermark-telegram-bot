@@ -79,6 +79,7 @@ python bot.py
 
 # Структура проекта 
 
+```
 watermark-telegram-bot/
 │
 ├── bot.py                 # Точка входа. Запускает бота
@@ -103,3 +104,4 @@ watermark-telegram-bot/
 │   └── db.py              # SQLite (пользователи, документы)
 │
 └── temp_files/            # Временные файлы (создаётся автоматически)
+```
