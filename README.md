@@ -30,7 +30,7 @@
 ## 1. Скачайте проект 
 
 ```bash
-https://github.com/mychinasa23/watermark-telegram-bot.git
+git clone https://github.com/mychinasa23/watermark-telegram-bot.git
 cd watermark-telegram-bot
 ```
 
