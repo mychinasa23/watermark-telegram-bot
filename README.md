@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 ## 4. Создайте файл .env с токеном (через терминал или вручную)
 
-### Вариант через терминал 
+### Вариант через терминал:
 ```bash
 echo BOT_TOKEN=ваш_токен_от_BotFather > .env
 echo DB_PATH=bot_database.db >> .env
@@ -63,9 +63,9 @@ echo TEMP_DIR=temp_files >> .env
 
 ### Или создайте файл .env в блокноте и вставьте:
 ```text
-# BOT_TOKEN=ваш_токен_от_BotFather
-# DB_PATH=bot_database.db
-# TEMP_DIR=temp_files
+BOT_TOKEN=ваш_токен_от_BotFather
+DB_PATH=bot_database.db
+TEMP_DIR=temp_files
 ```
 
 - Как получить токен: Напишите @BotFather в Telegram → /newbot → укажите имя бота → скопируйте токен
